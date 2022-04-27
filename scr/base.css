@@ -1,1 +1,25 @@
-/* add CSS here
+.form-group {
+    padding: 50px 100px 10px 100px;
+    width: 50%;
+    align-items: right;
+    }
+
+.checkbox {
+    padding: 50px 100px 10px 100px;
+    width: 50%;
+    }
+
+.header-img {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 50px;
+    padding: 150px 100px 100px 100px;   
+}
+
+.btn-group-vertical {
+    padding: 50px 100px 100px 125px;
+    }
+
+
+

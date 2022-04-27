@@ -1,1 +1,1 @@
-// add scripts here
+$('.dropdown-menu').dropdown();
