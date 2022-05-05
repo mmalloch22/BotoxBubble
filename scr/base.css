@@ -7,6 +7,32 @@
     padding: 80px 150px 100px 200px;   
 }
 
+.header-img-page {
+	position: absolute;
+    top: 0px;
+    left: 0px;
+	 
+}
+
+.aboutuscontainer {
+	width: 1000px;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 20x rgba(0,0,0,0.4);
+  background-color: white;
+}
+
+.container-test {
+	width: 1000px;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 20x rgba(0,0,0,0.4);
+  background-color: white;
+}
+
+
 /* provide css to login and profile pages */ 
 .form-group {
 width: 300px;
@@ -108,6 +134,7 @@ width: 300px;
 	background-color: #1CA347;
 	border-color: #1CA347;
 }
+
 
 
 /* Chat containers */
