@@ -10,8 +10,8 @@
       
         <label for="location">Select your City:</label>
   <select name="Location" id="location">
-    <option value="Torrance">Torrance</option>
-    <option value="Orange County">Orange County</option>
+    <option value="Torrance">Newport Beach</option>
+    <option value="Orange County">New York</option>
   </select>
   <br><br>
   <input type="submit" onclick="Search()" id="submitbtn" oncvalue="Submit">
@@ -43,12 +43,12 @@ function Search()
   var sel_location = document.getElementById("location").value
   if (sel_location == "Torrance")
     {
-      document.getElementById("mapiframe").src = "https://maps.google.com/maps?q=Torrance&t=&z=13&ie=UTF8&iwloc=&output=embed"
+      document.getElementById("mapiframe").src = "https://maps.google.com/maps?q=447%20Old%20Newport%20Blvd%20Newport%20Beach,%20CA%2092663&t=&z=13&ie=UTF8&iwloc=&output=embed"
       document.getElementById('mapiframe').src += '';
     }  
  if (sel_location == "Orange County")
     {
-    document.getElementById("mapiframe").src ="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+    document.getElementById("mapiframe").src ="https://maps.google.com/maps?q=274%20Madison%20Avenue,%20Suite%201003%20New%20York,%20NY%2010016&t=&z=13&ie=UTF8&iwloc=&output=embed" 
     }
 }
 </script>
