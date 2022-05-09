@@ -4,21 +4,22 @@
     <title>Chat</title>
     <link rel="stylesheet" href="scr/base.css"/>
   </head>
-  <header>
-    <a href="index.html">
-      <div class="header-img-page">
-        <img src="images\Botox Bubble logo.png" width="150" height="125">
-      </div>
-    </a>
-  </header>
   <body>
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0" nonce="FaNYGe0s"></script>
+    <div id="fb-root">
+    </div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0" nonce="FaNYGe0s">
+    </script>
        
-    
+    <div class="chat-box">
+      <p class="chat-messages">Hello! Please, leave your message.
+      </p>
+    </div>
+    <input type="text" id="chat-messages">
+    <input type="submit" id="send-message">
+   
+  
     <div class="fb-comments" data-href="https://mmalloch22.github.io/chat.html" data-width="" data-numposts="5">
     </div>
   
-   <script src="scr/scripts.js"></script>
   </body>
 </html>
