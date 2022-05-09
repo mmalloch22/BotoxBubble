@@ -15,7 +15,7 @@
   </select>
   <br><br>
   <input type="submit" onclick="Search()" id="submitbtn" oncvalue="Submit">
-  <p hidden id="zzz">hhh</p>
+  <p id="zzz"></p>
   <p></p>
 
        <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5792.650999943023!2d-117.72503674568297!3d34.09454861470887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c331e8505d3ebd%3A0x61afa455ef58ade6!2sKeck%20Graduate%20Institute!5e0!3m2!1sen!2sus!4v1651778597343!5m2!1sen!2sus" id= "mapiframe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
@@ -45,7 +45,7 @@ function Search()
     {
       document.getElementById("mapiframe").src = "https://maps.google.com/maps?q=447%20Old%20Newport%20Blvd%20Newport%20Beach,%20CA%2092663&t=&z=13&ie=UTF8&iwloc=&output=embed"
       document.getElementById('mapiframe').src += '';
-      document.getElementById("zzz").innerhtml;
+      document.getElementById("zzz").innerhtml = "hhh"
     }  
  if (sel_location == "Orange County")
     {
