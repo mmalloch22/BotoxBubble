@@ -21,4 +21,11 @@
         <div class="col-xs-12">
           <div class="fb-comments" data-href="https://mmalloch22.github.io/chat.html" data-width="" data-numposts="5"></div>
         </div>
+        <script>
+          $('#send-message').click(function() {
+          var message = $('#chat-messages').val();
+          var messageHTML = '<p class="chat-messages">' + message + '</p>';
+         $('.chat-box').append(messageHTML);
+          });
+        </script>
   </body>
