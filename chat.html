@@ -4,37 +4,15 @@
     <title>Chat</title>
     <link rel="stylesheet" href="scr/base.css"/>
   </head>
-<!-- GetButton.io widget -->
-<script type="text/javascript">
-  (function () {
-      var options = {
-          facebook: "109282541461369", // Facebook page ID
-          whatsapp: "+1(909)2889381", // WhatsApp number
-          call_to_action: "Hello! How can I help you today?", // Call to action
-          button_color: "#FF318E", // Color of button
-          position: "right", // Position may be 'right' or 'left'
-          order: "whatsapp,facebook", // Order of buttons
-          pre_filled_message: "Leave us a message :D", // WhatsApp pre-filled message
-      };
-      var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
-      var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
-      s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
-      var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
-  })();
-</script>
-<!-- /GetButton.io widget -->
+  <header>
+    <a href="index.html">
+      <div class="header-img-page">
+        <img src="images\Botox Bubble logo.png" width="150" height="125">
+      </div>
+    </a>
+  </header>
   <body>
-    <div class="container">
-      <div class="header">
-        <h1>Botox Buble Chat</h1>
-      </div>
-      <div class="body">
-        <p class="message">Hello! How may I help you today? </p>
-        <p class="message user_message">Hi</p>
-      </div>
-      <div class="footer">
-      <form>
-        <input type="text" name="">
-        <button>SEND</button>
-      </div>
-    </div>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0" nonce="MObmMSOo"></script>
+        <div class="fb-comments" data-href="https://mmalloch22.github.io/chat.html" data-width="" data-numposts="5"></div>
+  </body>
