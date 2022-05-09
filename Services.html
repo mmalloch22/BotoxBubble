@@ -10,7 +10,7 @@
       
         <label for="location">Select your City:</label>
   <select name="Location" id="location">
-    <option value="Torrance">Torrance</option>
+    <option value="Torrance">Newport Beach</option>
     <option value="Orange County">Orange County</option>
   </select>
   <br><br>
@@ -43,7 +43,7 @@ function Search()
   var sel_location = document.getElementById("location").value
   if (sel_location == "Torrance")
     {
-      document.getElementById("mapiframe").src = "https://maps.google.com/maps?q=Torrance&t=&z=13&ie=UTF8&iwloc=&output=embed"
+      document.getElementById("mapiframe").src = "https://maps.google.com/maps?q=447%20Old%20Newport%20Blvd%20Newport%20Beach,%20CA%2092663&t=&z=13&ie=UTF8&iwloc=&output=embed"
       document.getElementById('mapiframe').src += '';
     }  
  if (sel_location == "Orange County")
