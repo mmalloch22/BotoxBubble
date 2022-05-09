@@ -15,3 +15,12 @@ function initMap() {
 }
 
 window.initMap = initMap;
+
+// Chat box JS
+$('#send-message').click(function () {
+  // Get message from input box
+  var message = $('#chat-message').val();
+  var messageHTML = '<p class="chat-messages">' + message + '</p>';
+  // Append formatted HTML of message to the chat box
+  $('.chat-box').append(messageHTML);
+});
