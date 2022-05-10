@@ -50,7 +50,7 @@ display: block;
   background-color: white;
 }
 
-/* provide css to profile page */ 
+/* profile page styling */ 
 body {
   margin: 0;
   height: 100vh;
@@ -175,7 +175,6 @@ body {
 .form__link:hover {
   text-decoration: underline;
 }
-
 
 /* Chat containers */
 *{

@@ -1,3 +1,4 @@
+// Javascript for login and signup boxes, no databased linked currently for inputs
 function setFormMessage(formElement, type, message) {
     const messageElement = formElement.querySelector(".form__message");
 
