@@ -76,18 +76,6 @@ function myFunction() {
     x.style.display = "none";
   }
 }
-    var sel_location = document.getElementById("location").value
-  if (sel_location == "Torrance")
-    {
-      document.getElementById("mapiframe").src = "https://maps.google.com/maps?q=447%20Old%20Newport%20Blvd%20Newport%20Beach,%20CA%2092663&t=&z=13&ie=UTF8&iwloc=&output=embed"
-      document.getElementById('mapiframe').src += '';
-      document.getElementById("zzz").innerhtml = "hhh"
-    }  
- if (sel_location == "Orange County")
-    {
-    document.getElementById("mapiframe").src ="https://maps.google.com/maps?q=274%20Madison%20Avenue,%20Suite%201003%20New%20York,%20NY%2010016&t=&z=13&ie=UTF8&iwloc=&output=embed" 
-    }
-}
 </script>
   <br>
   <br>
@@ -123,4 +111,16 @@ function myFunction() {
   })();
 function Search() 
 {
+    var sel_location = document.getElementById("location").value
+  if (sel_location == "Torrance")
+    {
+      document.getElementById("mapiframe").src = "https://maps.google.com/maps?q=447%20Old%20Newport%20Blvd%20Newport%20Beach,%20CA%2092663&t=&z=13&ie=UTF8&iwloc=&output=embed"
+      document.getElementById('mapiframe').src += '';
+      document.getElementById("zzz").innerhtml = "hhh"
+    }  
+ if (sel_location == "Orange County")
+    {
+    document.getElementById("mapiframe").src ="https://maps.google.com/maps?q=274%20Madison%20Avenue,%20Suite%201003%20New%20York,%20NY%2010016&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+    }
+}
 </script>
